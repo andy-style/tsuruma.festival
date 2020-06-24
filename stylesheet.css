@@ -50,7 +50,6 @@ header {
 .icon-wrapper {
   display: none;
   margin-top: 10px;
-  line-height: 65px;
 }
 
 .icon-menu {
@@ -259,6 +258,6 @@ footer p {
 }
 
 .footer-txt {
-  padding-top: 5px;
+  padding-top: 10px;
 
 }
