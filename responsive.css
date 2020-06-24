@@ -52,8 +52,11 @@ body {
   .go-to-top {
     bottom: 35px;
     right:  25px;
-    color: white;
     background-color: rgb(154, 18, 171);
+  }
+
+  .go-to-top a {
+    color: white;
   }
 
   .header-right  {
