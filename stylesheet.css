@@ -166,8 +166,8 @@ h3 {
   font-family: serif;
   font-size: 30px;
   line-height: 60px;
-  border-top: 2px solid green;
-  border-bottom: 2px solid green;
+  border-top: 3px solid rgb(4,139,168);
+  border-bottom: 3px solid rgb(4,139,168);
   text-align: center;
   margin-top: 50px;
 }
@@ -225,6 +225,7 @@ h3 {
   width:  500px;
   height: 500px;
   margin: 0 auto;
+  padding: 5px;
   display: block;
 }
 
