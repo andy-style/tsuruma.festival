@@ -11,8 +11,6 @@ body {
   background-color: #dcdcdc;
 }
 
-
-
 .contents {
   max-width:1170px;
   width: 100%;
@@ -58,8 +56,9 @@ header {
 .icon-menu {
   display: none;
   float: right;
-  font-size: 40px;
+  font-size: 30px;
   height: 65px;
+  margin-top: 10px;
   color: white;
 }
 
@@ -124,6 +123,12 @@ h1 {
 }
 
 .greet {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.alert {
+  color: red;
   text-align: center;
 }
 
@@ -249,10 +254,11 @@ footer {
 
 footer p {
   text-align: left;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 20px;
 }
 
 .footer-txt {
   padding-top: 5px;
+
 }
