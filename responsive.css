@@ -98,6 +98,7 @@ body {
   .i-p-wapper {      /* flex の 子 */
     width: 50%;
     margin: 0 auto;
+    margin-top: 20px;
   }
 
   .introduction-text p {
