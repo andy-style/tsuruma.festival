@@ -114,6 +114,7 @@ header a {
 }
 
 h1 {
+  color: white;
   font-size: 80px;
   letter-spacing: 10px;
 }
@@ -196,6 +197,7 @@ h3 {
   line-height: 500px;
   font-size: 45px;
   letter-spacing: 5px;
+  color: white;
   text-align: center;
 }
 
