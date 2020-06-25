@@ -105,8 +105,13 @@ body {
   }
 
   .festival-title {
-    width: 500px;
+    width: 450px;
     transform: translate(-50%, -50%);
+  }
+
+  h1 {
+    font-size: 70px;
+    letter-spacing: 5px;
   }
 
   .introduction-photos {  /* flex の 親 */
