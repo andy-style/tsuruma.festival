@@ -18,9 +18,14 @@ body {
     color: rgb(223, 103, 36);
   }
 
+  .festival-title {
+    width: 500px;
+    transform: translate(-50%, -50%);
+  }
+
   h1 {
-    font-size: 55px;
-    letter-spacing: 0px;
+    font-size: 70px;
+    letter-spacing: 10px;
   }
 
    .introduction-photos {  /* flex の 親 */
@@ -31,8 +36,24 @@ body {
      padding: 0
    }
 
+   .introduction-text {
+     font-size: 27px;
+     line-height: 50px;
+     text-align: center;
+   }
+
    .i-p-wapper {      /* flex の 子 */
      width: 50%;
+   }
+
+   .season-title h2 {
+     font-size: 65px;
+     letter-spacing: 10px;
+   }
+
+   .season-text {
+     font-size: 27px;
+     line-height: 60px;
    }
 
   .photos {          /* flex の 親 */
@@ -84,8 +105,8 @@ body {
   }
 
   .festival-title {
-    width: 350px;
-    transform: translate(-175px, -50%);
+    width: 500px;
+    transform: translate(-50%, -50%);
   }
 
   .introduction-photos {  /* flex の 親 */
