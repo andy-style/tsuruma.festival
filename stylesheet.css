@@ -118,9 +118,9 @@ header a {
 
 h1 {
   color: white;
-  font-size: 80px;
-  letter-spacing: 10px;
-  text-shadow: 8px 8px 8px rgb(0, 230, 16);
+  font-size: 85px;
+  letter-spacing: 20px;
+  text-shadow: 8px 8px 8px rgb(4,139,168);
 }
 
 .greet {
@@ -279,6 +279,8 @@ h3 {
   line-height: 40px;
   text-align: left;
   margin: 20px auto 50px auto;
+  border-left: 5px solid rgba(4,139,168,.9);
+  padding-left: 30px;
 }
 
 
