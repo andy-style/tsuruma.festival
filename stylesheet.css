@@ -119,6 +119,7 @@ h1 {
   color: white;
   font-size: 80px;
   letter-spacing: 10px;
+  text-shadow: 8px 8px 8px rgb(0, 230, 16);
 }
 
 .greet {
@@ -152,17 +153,9 @@ h3 {
   max-height: 220px;
   padding: 10px;
   margin: 0 auto;
-
-  /* padding:5px 10px;
-  color: #FFF;
-  text-decoration :none;
-  background: #eb8787; */
-  /* box-shadow: 3px 3px #ffbe75;
-  transition: .3s; */
 }
 
 .introduction-photo:hover {
-  /* box-shadow: 1px 1px #ffbe75; */
   padding: 0;
 }
 
@@ -185,6 +178,7 @@ h3 {
   margin-top: 50px;
 }
 
+/* season area */
 
 .season-area {
   width: 100%;
@@ -192,10 +186,8 @@ h3 {
 }
 
 .season-title {
-  height: 500px;
+  /* height: 500px; */
   margin: 50px 0 50px 0;
-  border-top: 30px solid rgb(4,139,168);
-  border-bottom: 30px solid rgb(4,139,168);
   z-index: 10;
 }
 
@@ -209,7 +201,7 @@ h3 {
   background-size: cover;}
 
 #autumn .season-title {
-  background-image: url(./image/autumn_main.jpg);
+  background-image: url(./image/autumn_main2.jpg);
   background-size: cover;}
 
 #winter .season-title {
@@ -228,16 +220,27 @@ h3 {
    text-shadow: 8px 8px 8px rgb(173, 28, 204);
  }
 
+#spring .season-title {
+  border-top: 30px solid rgb(182, 83, 203);
+  border-bottom: 30px solid rgb(182, 83, 203);
+}
+
  #summer h2{
    text-shadow: 8px 8px 8px rgb(27, 52, 203);
- }
+   border-top: 30px solid rgb(61, 81, 203);
+   border-bottom: 30px solid rgb(61, 81, 203);
+  }
 
  #autumn h2{
-   text-shadow: 8px 8px 8px rgb(177, 34, 34);
+   text-shadow: 8px 8px 8px rgb(217, 21, 21);
+   border-top: 30px solid rgb(168, 69, 69);
+   border-bottom: 30px solid rgb(168, 69, 69);
  }
 
  #winter h2{
    text-shadow: 8px 8px 8px rgb(255, 0, 0);
+   border-top: 30px solid rgb(247, 75, 75);
+   border-bottom: 30px solid rgb(247, 75, 75);
  }
 
 .photos {            /* flex の 親 */
