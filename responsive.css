@@ -14,6 +14,10 @@ body {
     letter-spacing: 0px;
   }
 
+  .go-to-top a {
+    color: rgb(223, 103, 36);
+  }
+
   h1 {
     font-size: 55px;
     letter-spacing: 0px;
@@ -57,7 +61,7 @@ body {
   }
 
   .go-to-top a {
-    color: rgb(4,139,168);
+    color: rgb(170, 56, 204);
   }
 
   .arrow {
