@@ -32,12 +32,12 @@ header {
   width: 100%;
   position: fixed;
   top: 0px;
-  background-color: rgba(47,79,79,0.9);
+  background-color: rgba(4,139,168,.9);
   z-index: 100;
 }
 
 .header-left {
-  width: 140px;
+  width: 200px;
   height: 65px;
   float: left;
 }
@@ -69,7 +69,7 @@ header a {
 }
 
 .header-btn:hover {
-  background-color: darkgray;
+  background-color: rgba(110, 240, 89,.7);
   transition: all 0.5s;
 }
 
@@ -88,6 +88,7 @@ header a {
 
 .go-to-top a {
   display: block;
+  color: rgb(4,139,168);
   border-radius: 40px;
   padding-top: 3px;
   text-align: center;
@@ -123,7 +124,8 @@ h1 {
 }
 
 .greet {
-  margin-top: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -186,9 +188,17 @@ h3 {
 }
 
 .season-title {
-  /* height: 500px; */
+  height: 500px;
   margin: 50px 0 50px 0;
   z-index: 10;
+}
+
+.season-title h2 {
+  line-height: 440px;
+  font-size: 75px;
+  letter-spacing: 20px;
+  color: white;
+  text-align: center;
 }
 
 #spring .season-title {
@@ -198,29 +208,22 @@ h3 {
 
 #summer .season-title {
   background-image: url(./image/summer_main.jpg);
-  background-size: cover;}
+  background-size: cover;
+}
 
 #autumn .season-title {
   background-image: url(./image/autumn_main2.jpg);
-  background-size: cover;}
+  background-size: cover;
+}
 
 #winter .season-title {
   background-image: url(./image/winter_main2.jpg);
-  background-size: cover;}
-
-.season-title h2 {
-  line-height: 500px;
-  font-size: 75px;
-  letter-spacing: 20px;
-  color: white;
-  text-align: center;
+  background-size: cover;
 }
 
- #spring h2{
-   text-shadow: 8px 8px 8px rgb(173, 28, 204);
- }
 
 #spring .season-title {
+  text-shadow: 8px 8px 8px rgb(173, 28, 204);
   border-top: 30px solid rgb(182, 83, 203);
   border-bottom: 30px solid rgb(182, 83, 203);
 }
@@ -283,7 +286,7 @@ h3 {
 footer {
   height: 65px;
   color: white;
-  background-color: rgba(47,79,79,0.9);
+  background-color: rgba(4,139,168,.9);
 }
 
 footer p {
