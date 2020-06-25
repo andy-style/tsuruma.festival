@@ -139,8 +139,8 @@ body {
   }
 
    .season-title h2 {
-     font-size: 55px;
-     letter-spacing: 8px;
+     font-size: 40px;
+     letter-spacing: 2px;
    }
 
   .photos {  /* flex の 親 */
