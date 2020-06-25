@@ -138,6 +138,11 @@ body {
     line-height: 25px;
   }
 
+   .season-title h2 {
+     font-size: 55px;
+     letter-spacing: 8px;
+   }
+
   .photos {  /* flex の 親 */
     flex-direction: column;
     width: 100%;
