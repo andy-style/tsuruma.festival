@@ -79,32 +79,59 @@ header a {
 }
 
 
-.go-to-top {
-  position: fixed;
-  bottom: 100px;
-  right:  80px;
+.side-btn {
   display: block;
   width:  86px;
   height: 86px;
-  border-radius: 40px;
+  border-radius: 15px;
   background-color: white;
   opacity: .8;
   z-index: 150;
 }
 
+.go-to-twitter {
+  position: fixed;
+  bottom: 230px;
+  right:  30px;
+}
+
+.go-to-facebook {
+  position: fixed;
+  bottom: 130px;
+  right:  30px;
+}
+
+.go-to-top {
+  position: fixed;
+  bottom: 30px;
+  right:  30px;
+}
+
+.go-to-twitter a {
+  color: #55acee;
+}
+
+.go-to-facebook a {
+  color: #3b5998;
+}
+
 .go-to-top a {
-  display: block;
   color: rgb(4,139,168);
+}
+
+.side-btn a {
+  display: block;
   border-radius: 40px;
   padding-top: 3px;
   text-align: center;
 }
 
-.arrow {
+.side-icon {
   font-size: 80px;
   line-height: 80px;
 }
 
+/* introduction-area */
 
 .big-image {            /* トップ画像差し替え用 */
   width:  100%;
