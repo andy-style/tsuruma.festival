@@ -51,24 +51,11 @@ header {
   height: 65px;
 }
 
-.icon-wrapper {
-  display: none;
-  margin-top: 10px;
-}
-
-.icon-menu {
-  display: none;
-  float: right;
-  font-size: 30px;
-  height: 65px;
-  margin-top: 10px;
-  color: white;
-}
-
 header a {
   display: inline-block;
   color: white;
   letter-spacing: 8px;
+  padding: 0 10px;
   line-height: 65px;
 }
 
@@ -76,6 +63,21 @@ header a {
   background-color: rgba(110, 240, 89,.7);
   transition: all 0.5s;
 }
+
+.icon-wrapper {
+  display: none;
+  /* padding-top: 10px; */
+}
+
+.icon-menu {
+  display: none;
+  float: right;
+  font-size: 30px;
+  height: 65px;
+  padding-top: 15px;
+  color: white;
+}
+
 
 .go-to-top {
   position: fixed;
