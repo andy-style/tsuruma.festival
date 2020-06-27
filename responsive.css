@@ -74,18 +74,18 @@ body {
       /* background-color: green; */
     }
 
-  .go-to-top {
+  /* .go-to-top {
     bottom: 30px;
     right:  15px;
     width:  66px;
     height: 66px;
-  }
+  } */
 
   .go-to-top a {
     color: rgb(170, 56, 204);
   }
 
-  .arrow {
+  .side-btn {
     font-size: 60px;
     line-height: 60px;
   }
