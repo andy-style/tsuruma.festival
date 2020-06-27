@@ -90,6 +90,10 @@ body {
     line-height: 60px;
   }
 
+  .header-left {
+    width: 150px;
+  }
+
   .header-right  {
     display: none;
   }
@@ -170,7 +174,7 @@ body {
 
   .season-text {
     font-size: 17px;
-    line-height: 23px;
+    line-height: 30px;
   }
 
   .footer-txt {
