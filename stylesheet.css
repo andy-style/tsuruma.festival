@@ -1,303 +1,180 @@
-* {
-  box-sizing: border-box;
-}
+/* メディアクエリ */
 
-a {
-  text-decoration: none;
-}
-
+@media (max-width: 1170px) {
 body {
-  margin: 0;
-  background-color: #dcdcdc;
-}
-
-.contents {
-  max-width:1170px;
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-header {
-  height: 65px;
-  width: 100%;
-  position: fixed;
-  top: 0px;
-  z-index: 10000;
-  text-align: center;
-}
-
-.header-line {
-  height: 65px;
-  width: 100%;
-  position: fixed;
-  top: 0px;
-  background-color: rgba(4,139,168,.9);
-  z-index: 100;
-}
-
-.header-left {
-  width: 200px;
-  height: 65px;
-  float: left;
-}
-
-.header-right {
-  float: right;
-  height: 65px;
-}
-
-.icon-wrapper {
-  display: none;
-  margin-top: 10px;
-}
-
-.icon-menu {
-  display: none;
-  float: right;
-  font-size: 30px;
-  height: 65px;
-  margin-top: 10px;
-  color: white;
-}
-
-header a {
-  display: inline-block;
-  color: white;
-  letter-spacing: 8px;
-  line-height: 65px;
-}
-
-.header-btn:hover {
-  background-color: rgba(110, 240, 89,.7);
-  transition: all 0.5s;
-}
-
-.go-to-top {
-  position: fixed;
-  bottom: 100px;
-  right:  80px;
-  display: block;
-  width:  86px;
-  height: 86px;
-  border-radius: 40px;
-  background-color: white;
-  opacity: .8;
-  z-index: 150;
-}
-
-.go-to-top a {
-  display: block;
-  color: rgb(4,139,168);
-  border-radius: 40px;
-  padding-top: 3px;
-  text-align: center;
-}
-
-.arrow {
-  font-size: 80px;
-  line-height: 80px;
-}
-
-
-.big-image {            /* トップ画像差し替え用 */
-  width:  100%;
-  height: 600px;
-  background-image: url(./image/festival_top.jpg);
-  background-size: cover;
-  position: relative;
-  display: block;
-}
-
-.festival-title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-h1 {
-  color: white;
-  font-size: 85px;
-  letter-spacing: 20px;
-  text-shadow: 8px 8px 8px rgb(4,139,168);
-}
-
-.greet {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.alert {
-  color: red;
-  text-align: center;
-}
-
-h3 {
-  font-size: 30px;
-  letter-spacing: 5px;
-}
-
- .introduction-photos {   /* flex の 親 */
-  display: flex;
-  width: 80%;
-  margin: 20px auto;
-}
-
-.i-p-wapper {      /* flex の 子 */
-  width: 25%;
-}
-
-.introduction-photo {
-  display: block;
-  max-width: 220px;
-  max-height: 220px;
-  padding: 10px;
-  margin: 0 auto;
-}
-
-.introduction-photo:hover {
-  padding: 0;
-}
-
-.i-p-cap {
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  font-style: italic;
-  font-size: 12px;
-}
-
-.introduction-text {
-  display: block;
-  font-family: serif;
-  font-size: 30px;
-  line-height: 60px;
-  border-top: 3px solid rgb(4,139,168);
-  border-bottom: 3px solid rgb(4,139,168);
-  text-align: center;
-  margin-top: 50px;
-}
-
-/* season area */
-
-.season-area {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.season-title {
-  height: 500px;
-  margin: 50px 0 50px 0;
-  z-index: 10;
-}
-
-.season-title h2 {
-  line-height: 440px;
-  font-size: 75px;
-  letter-spacing: 20px;
-  color: white;
-  text-align: center;
-}
-
-#spring .season-title {
-  background-image: url(./image/spring_main.jpg);
-  background-size: cover;
-}
-
-#summer .season-title {
-  background-image: url(./image/summer_main.jpg);
-  background-size: cover;
-}
-
-#autumn .season-title {
-  background-image: url(./image/autumn_main2.jpg);
-  background-size: cover;
-}
-
-#winter .season-title {
-  background-image: url(./image/winter_main2.jpg);
-  background-size: cover;
-}
-
-
-#spring .season-title {
-  text-shadow: 8px 8px 8px rgb(173, 28, 204);
-  border-top: 30px solid rgb(182, 83, 203);
-  border-bottom: 30px solid rgb(182, 83, 203);
-}
-
- #summer h2{
-   text-shadow: 8px 8px 8px rgb(27, 52, 203);
-   border-top: 30px solid rgb(61, 81, 203);
-   border-bottom: 30px solid rgb(61, 81, 203);
+    /* background-color: orange; */
   }
 
- #autumn h2{
-   text-shadow: 8px 8px 8px rgb(217, 21, 21);
-   border-top: 30px solid rgb(168, 69, 69);
-   border-bottom: 30px solid rgb(168, 69, 69);
- }
+  header {
+    width: 100%;
+    left: 0;
+  }
 
- #winter h2{
-   text-shadow: 8px 8px 8px rgb(255, 0, 0);
-   border-top: 30px solid rgb(247, 75, 75);
-   border-bottom: 30px solid rgb(247, 75, 75);
- }
+  .header-btn {
+    letter-spacing: 0px;
+  }
 
-.photos {            /* flex の 親 */
-  display: flex;
+  .go-to-top a {
+    color: rgb(223, 103, 36);
+  }
+
+  .festival-title {
+    width: 500px;
+    transform: translate(-50%, -50%);
+  }
+
+  h1 {
+    font-size: 70px;
+    letter-spacing: 10px;
+  }
+
+   .introduction-photos {  /* flex の 親 */
+     flex-wrap: wrap;
+   }
+
+   .introduction-photo {
+     padding: 0
+   }
+
+   .introduction-text {
+     font-size: 27px;
+     line-height: 50px;
+     text-align: center;
+   }
+
+   .i-p-wapper {      /* flex の 子 */
+     width: 50%;
+   }
+
+   .season-title h2 {
+     font-size: 65px;
+     letter-spacing: 10px;
+   }
+
+   .season-text {
+     font-size: 27px;
+     line-height: 60px;
+   }
+
+  .photos {          /* flex の 親 */
+    flex-wrap: wrap;
+  }
+
+  .photo-complex {     /* flex の 子 */
+    flex: auto;
+    width: 50%;
+  }
+
 }
 
-.photo-complex {        /* flex の 子 */
-  flex: auto;
-  width: 25%;
-  margin-bottom: 20px;
-}
-
-.image-photo {
-  max-width: 280px;
-  max-height: 280px;
-  width:  500px;
-  height: 500px;
-  margin: 0 auto;
-  padding: 5px;
-  display: block;
-}
-
-.photo-caption {
-  width: 80%;
-  margin: 15px auto;
-  font-size: 15px;
-  line-height: 25px;
-}
-
-.season-text {
-  max-width: 1000px;
-  font-size: 20px;
-  line-height: 40px;
-  text-align: left;
-  margin: 20px auto 50px auto;
-  border-left: 5px solid rgba(4,139,168,.9);
-  padding-left: 30px;
-}
 
 
+@media (max-width: 670px) {
+  body {
+      /* background-color: green; */
+    }
 
-footer {
-  height: 65px;
-  color: white;
-  background-color: rgba(4,139,168,.9);
-}
+  .go-to-top {
+    bottom: 30px;
+    right:  15px;
+    width:  66px;
+    height: 66px;
+  }
 
-footer p {
-  text-align: left;
-  font-size: 13px;
-  line-height: 20px;
-}
+  .go-to-top a {
+    color: rgb(170, 56, 204);
+  }
 
-.footer-txt {
-  padding-top: 10px;
+  .arrow {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .header-right  {
+    display: none;
+  }
+
+  .header-btn {
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+
+  .icon-wrapper {
+    display: block;
+    float: right;
+  }
+
+  .festival-title {
+    width: 450px;
+    transform: translate(-50%, -50%);
+  }
+
+  h1 {
+    font-size: 70px;
+    letter-spacing: 5px;
+  }
+
+  .introduction-photos {  /* flex の 親 */
+    flex-direction: column;
+    width: 100%;
+  }
+
+  h3 {
+    font-size: 18px;
+    letter-spacing: 0;
+  }
+
+
+  .i-p-wapper {      /* flex の 子 */
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .introduction-text p {
+    padding: 0 20px;
+    text-align: left;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+   .season-title h2 {
+     font-size: 40px;
+     letter-spacing: 2px;
+   }
+
+  .photos {  /* flex の 親 */
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .photo-complex  {      /* flex の 子 */
+    width: 100%;
+  }
+
+  .image-photo {
+    max-width:  300px;
+    max-height: 300px;
+    width:  500px;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .photo-caption {
+    max-width: 300px;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+
+  .season-text {
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .footer-txt {
+    padding-top: 15px;
+  }
 
 }
