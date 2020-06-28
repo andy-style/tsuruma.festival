@@ -154,8 +154,8 @@ body {
   .introduction-text p {
     padding: 0 20px;
     text-align: left;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 30px;
   }
 
   .season-title {
@@ -186,16 +186,16 @@ body {
     display: block;
   }
 
+    .season-text {
+      font-size: 15px;
+      line-height: 25px;
+    }
+
   .photo-caption {
     max-width: 300px;
-    font-size: 15px;
-    line-height: 20px;
-    margin-top: 10px;
-  }
-
-  .season-text {
-    font-size: 17px;
-    line-height: 30px;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 2px;
   }
 
   .footer-txt {
