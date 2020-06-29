@@ -162,11 +162,11 @@ body {
     height: 300px;
   }
 
-   .season-title h2 {
-     line-height: 240px;
-     font-size: 37px;
-     letter-spacing: 2px;
-   }
+ .season-title h2 {
+   line-height: 240px;
+   font-size: 42px;
+   letter-spacing: 2px;
+ }
 
   .photos {  /* flex の 親 */
     flex-direction: column;
@@ -186,10 +186,10 @@ body {
     display: block;
   }
 
-    .season-text {
-      font-size: 15px;
-      line-height: 25px;
-    }
+  .season-text {
+    font-size: 15px;
+    line-height: 25px;
+  }
 
   .photo-caption {
     max-width: 300px;
