@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="reset.css">      <!--リセットcss ress -->
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css" >
+    <script src="script.js" defer>    </script>
 
     <!--fontawesome -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
@@ -31,13 +32,26 @@
           </div>
 
           <div class="icon-wrapper">
-            <a href="#"> <span class="fa fa-bars icon-menu"></span> </a>
+            <a> <span id="modalOpen" class="fa fa-bars icon-menu "></span> </a>
           </div>
-
-
         </div>
       </header>
       <span class="header-line"></span>
+
+      <div class="modal modal_back" id="modal">        <!-- モーダル -->
+        <div class="modal_title">
+          <div class="modal-left"><p>季節のお祭り<br>特設ページ</p></div>
+          <div class="modal_right" id="modalClose"><p>×</p></div>
+        </div>
+        <a href="#spring-link" class="modal_btn clear">桜まつり</a>
+        <a href="#summer-link" class="modal_btn">夏祭り</a>
+        <a href="#autumn-link" class="modal_btn">秋の演奏会</a>
+        <a href="#winter-link" class="modal_btn">あったか屋台祭り</a>
+
+      </div>
+      <div class="mask" id="mask"></div>
+
+
 
       <div class="btn-complex">
 
