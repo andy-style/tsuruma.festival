@@ -145,7 +145,7 @@ header a {
 .festival-title {
   position: absolute;
   text-align: center;
-  width: 50%;
+  width: 80%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -235,6 +235,7 @@ h3 {
 }
 
 .season-title h2 {
+  width: 100%;
   line-height: 440px;
   font-family: 'Noto Serif JP', serif;
   font-size: 75px;
