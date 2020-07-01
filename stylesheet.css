@@ -300,11 +300,15 @@ h3 {
 }
 
 .i-p-cap {
+  display: none;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 30px;
-  font-style: italic;
   font-size: 12px;
+}
+
+.i-p-active {
+  display: block;
 }
 
 .introduction-text {
