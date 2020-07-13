@@ -267,6 +267,8 @@ h1 {
 }
 
 .alert {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
   color: red;
   text-align: center;
 }
@@ -274,6 +276,7 @@ h1 {
 h3 {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 30px;
+  font-weight: ;
   letter-spacing: 5px;
 }
 
@@ -331,9 +334,11 @@ h3 {
 
 .empty {
   height: 65px;
+  clear: both;
 }
 
 .season-title {
+  display: block;
   height: 500px;
   margin: 0px 0 50px 0;
 }
@@ -429,6 +434,49 @@ h3 {
   border-left: 5px solid rgba(4,139,168,.9);
   padding-left: 30px;
 }
+
+/* アコーディオン */
+
+
+.entry_title {
+  position: relative;
+  width: 70%;
+  height: 40px;
+  margin: 0 auto;
+  background-color: rgba(4,139,168,.8);
+  border-radius: 15px;
+}
+
+.entry_wrapper p {
+  font-size: 17px;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+}
+
+.entry_title span {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  color: white;
+  font-size: 23px;
+}
+
+.summary {
+  /* position: relative; */
+  display: none;
+  background-color: rgba(4,139,168,.3);
+  border-radius: 0 0 15px 15px;
+}
+
+.summary p {
+  /* position: relative; */
+  color: black;
+}
+
+.open {
+}
+
 
 /* footer */
 
