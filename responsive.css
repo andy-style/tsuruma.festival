@@ -198,6 +198,25 @@ body {
     margin-top: 2px;
   }
 
+  .entry_title {
+    width: 100%;
+  }
+
+  .entry_wrapper p {
+    font-size: 15px;
+  }
+
+  .summary {
+    width: 100%;
+  }
+
+  .entry_title span {
+    top: 2px;
+    right: 10px;
+    font-size: 20px;
+  }
+
+
   .footer-txt {
     padding-top: 15px;
   }
