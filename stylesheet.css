@@ -7,7 +7,6 @@ a {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
-
 body {
   margin: 0;
   font-family: 'M PLUS 1p', sans-serif;
@@ -67,6 +66,12 @@ header a {
   transition: all 0.5s;
 }
 
+.global_navi {
+  list-style: none;
+  display: inline-block;
+}
+
+
 .icon-wrapper {
   display: none;
 }
@@ -107,8 +112,6 @@ header a {
   right: 20px;
   width: 60%;
   height: 256px;
-  /* max-height: 80vh; */
-  /* overflow: hidden; */
   border: 3px solid white;
   border-radius: 15px;
   background-color: rgb(170, 56, 204);
@@ -353,46 +356,46 @@ h3 {
   text-align: center;
 }
 
-#spring .season-title {
+.spring .season-title {
   background-image: url(./image/spring_main.jpg);
   background-size: cover;
 }
 
-#summer .season-title {
+.summer .season-title {
   background-image: url(./image/summer_main.jpg);
   background-size: cover;
 }
 
-#autumn .season-title {
+.autumn .season-title {
   background-image: url(./image/autumn_main2.jpg);
   background-size: cover;
 }
 
-#winter .season-title {
+.winter .season-title {
   background-image: url(./image/winter_main2.jpg);
   background-size: cover;
 }
 
 
-#spring .season-title {
+.spring .season-title {
   text-shadow: 8px 8px 8px rgb(173, 28, 204);
   border-top: 30px solid rgb(182, 83, 203);
   border-bottom: 30px solid rgb(182, 83, 203);
 }
 
- #summer h2{
+ .summer h2{
    text-shadow: 8px 8px 8px rgb(27, 52, 203);
    border-top: 30px solid rgb(61, 81, 203);
    border-bottom: 30px solid rgb(61, 81, 203);
   }
 
- #autumn h2{
+ .autumn h2{
    text-shadow: 8px 8px 8px rgb(217, 21, 21);
    border-top: 30px solid rgb(168, 69, 69);
    border-bottom: 30px solid rgb(168, 69, 69);
  }
 
- #winter h2{
+ .winter h2{
    text-shadow: 8px 8px 8px rgb(255, 0, 0);
    border-top: 30px solid rgb(247, 75, 75);
    border-bottom: 30px solid rgb(247, 75, 75);
@@ -437,17 +440,15 @@ h3 {
 
 /* アコーディオン */
 
-
 .entry_title {
   position: relative;
   width: 70%;
-  height: 40px;
   margin: 0 auto;
   background-color: rgba(4,139,168,.8);
   border-radius: 15px;
 }
 
-.entry_wrapper p {
+.entry_wrapper dt {
   font-size: 17px;
   line-height: 40px;
   color: white;
@@ -463,19 +464,19 @@ h3 {
 }
 
 .summary {
-  /* position: relative; */
   display: none;
-  background-color: rgba(4,139,168,.3);
+  background-color: rgba(255,255,255,.5);
   border-radius: 0 0 15px 15px;
+  padding: 10px;
 }
 
-.summary p {
-  /* position: relative; */
+.summary dd {
   color: black;
+  padding-left: 30px;
+  line-height: 30px;
 }
 
-.open {
-}
+
 
 
 /* footer */
