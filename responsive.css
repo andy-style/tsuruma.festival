@@ -18,11 +18,6 @@ body {
     color: rgb(223, 103, 36);
   }
 
-  /* .festival-title {
-    width: 500px;
-    transform: translate(-50%, -50%);
-  } */
-
   h1 {
     font-size: 70px;
     letter-spacing: 10px;
@@ -144,7 +139,6 @@ body {
     letter-spacing: 0;
   }
 
-
   .i-p-wapper {      /* flex の 子 */
     width: 50%;
     margin: 0 auto;
@@ -216,9 +210,8 @@ body {
     font-size: 20px;
   }
 
-
   .footer-txt {
-    padding-top: 15px;
+    padding-top: 12px;
   }
 
 }
