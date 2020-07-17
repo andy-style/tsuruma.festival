@@ -12,33 +12,33 @@
     <script src="script.js" defer>    </script>   <!--javascript -->
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-
     <!--fontawesome -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <!-- GoogleFont -->
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&family=Noto+Sans+JP:wght@500;700&family=Noto+Serif+JP:wght@400;900&display=swap" rel="stylesheet">
-    <!-- ファビコン  つ  -->
+    <!-- ファビコン   -->
     <link rel="icon" type="image/png" href="./image/favicon_t.png">
 
   </head>
 
   <body>
       <header>
-        <div class="contents">
-          <div class="header-left">
-            <a class="header-btn" href="https://andy-style.github.io/tsuruma.festival/">鶴舞公園</p>
-          </div>
-          <div class="header-right">
-            <a class="header-btn" href="#spring-link">桜まつり</a>
-            <a class="header-btn" href="#summer-link">夏祭り</a>
-            <a class="header-btn" href="#autumn-link">演奏会</a>
-            <a class="header-btn" href="#winter-link">屋台祭り</a>
-          </div>
-
-          <div class="icon-wrapper">
-            <a> <span id="modalOpen" class="fa fa-bars icon-menu "></span> </a>
+        <nav>              <!-- グローバルナビ -->
+          <div class="contents">
+            <div class="header-left">
+              <a class="header-btn" href="https://andy-style.github.io/tsuruma.festival/">鶴舞公園</p>
+            </div>
+            <ol class="header-right">
+              <li class="global_navi"><a class="header-btn" href="#spring-link">桜まつり</a></li>
+              <li class="global_navi"><a class="header-btn" href="#summer-link">夏祭り</a></li>
+              <li class="global_navi"><a class="header-btn" href="#autumn-link">演奏会</a></li>
+              <li class="global_navi"><a class="header-btn" href="#winter-link">屋台祭り</a></li>
+            </ol>
+            <div class="icon-wrapper">
+              <a> <span id="modalOpen" class="fa fa-bars icon-menu "></span> </a>
           </div>
         </div>
+      </nav>
       </header>
       <span class="header-line"></span>
 
@@ -47,33 +47,33 @@
           <div class="modal-left"><p>季節のお祭り<br>特設ページ</p></div>
           <div class="modal_right" id="modalClose"><p>×</p></div>
         </div>
-        <a href="#spring-link" id="modal_btn1" class="modal_btn clear">桜まつり</a>
-        <a href="#summer-link" id="modal_btn2"  class="modal_btn">夏祭り</a>
-        <a href="#autumn-link" id="modal_btn3" class="modal_btn">秋の演奏会</a>
-        <a href="#winter-link" id="modal_btn4"  class="modal_btn">あったか屋台祭り</a>
-
+        <ol>
+          <li><a href="#spring-link" id="modal_btn1" class="modal_btn clear">桜まつり</a></li>
+          <li><a href="#summer-link" id="modal_btn2"  class="modal_btn">夏祭り</a></li>
+          <li><a href="#autumn-link" id="modal_btn3" class="modal_btn">秋の演奏会</a></li>
+          <li><a href="#winter-link" id="modal_btn4"  class="modal_btn">あったか屋台祭り</a></li>
+        </ol>
       </div>
       <div class="mask" id="mask"></div>
 
+      <aside class="btn-complex">   <!--サイド  リンクボタン×3-->
 
-
-      <div class="btn-complex">
-
-        <div class="go-to-twitter side-btn">
-          <a href="#"> <span class="fab fa-twitter-square side-icon"></span> </a>
+        <div class="go-to-twitter side-btn">      <!--<a href="#" target="_blank"></a>-->
+          <a href="https://twitter.com/twitterjp?lang=ja"> <span class="fab fa-twitter-square side-icon"></span> </a>
         </div>
 
         <div class="go-to-facebook side-btn">
-          <a href="#"> <span class="fab fa-facebook-square side-icon"></span> </a>
+          <a href="https://ja-jp.facebook.com/"> <span class="fab fa-facebook-square side-icon"></span> </a>
         </div>
 
         <div class="go-to-top side-btn">
           <a href="#page-top"> <span class="fas fa-arrow-circle-up side-icon"></span> </a>
         </div>
 
-      </div>
+      </aside>
 
-      <div class="main"  id="page-top">
+
+      <main class="main"  id="page-top">    <!--メイン -->
 
         <div class="big-image">    <!--トップ画像 -->
           <div class="festival-title">
@@ -90,45 +90,45 @@
 
               <div class="i-p-wapper i-p-hover">      <!--flexの 子 -->
                 <a href="#spring-link">
-                  <img class="introduction-photo " src="./image/spring_i.jpg" alt="spring画像">
+                  <img class="introduction-photo " src="./image/spring_i.jpg" alt="桜祭りへのリンク">
                 </a>
                 <p class="spring-cap i-p-cap">クリックで桜まつりへ</p>
               </div>
 
               <div class="i-p-wapper i-p-hover">      <!--flexの 子 -->
                 <a href="#summer-link">
-                  <img class="introduction-photo" src="./image/summer_i.jpg" alt="summer画像">
+                  <img class="introduction-photo" src="./image/summer_i.jpg" alt="夏祭りへのリンク">
                 </a>
                 <p class="summer-cap i-p-cap">クリックで夏まつりへ</p>
               </div>
 
               <div class="i-p-wapper i-p-hover">      <!--flexの 子 -->
                 <a href="#autumn-link">
-                  <img class="introduction-photo" src="./image/autumn_i.jpg" alt="autumn画像">
+                  <img class="introduction-photo" src="./image/autumn_i.jpg" alt="演奏会へのリンク">
                 </a>
                 <p class="autumn-cap i-p-cap">クリックで演奏会へ</p>
               </div>
 
               <div class="i-p-wapper i-p-hover">      <!--flexの 子 -->
                 <a href="#winter-link">
-                  <img class="introduction-photo" src="./image/winter_i.jpg" alt="winter画像">
+                  <img class="introduction-photo" src="./image/winter_i.jpg" alt="屋台祭りへのリンク">
                 </a>
                 <p class="winter-cap i-p-cap">クリックで屋台祭りへ</p>
               </div>
             </div>
-            <div class="introduction-text">
+            <section class="introduction-text">
               <p><br>鶴舞公園では季節ごとに祭典を行っています。<br>
               春の桜まつり、夏の夏祭り、秋の演奏会、冬のあったか屋台祭り、<br>
               季節折々の風物詩として地域の皆様のみならず、<br>
               近年は遠方からも多くの方々にご参加いただいております。<br>　</p>
-            </div>
+            </section>
           </div>
         </div>            <!-- /introduction-area -->
 
         <div class="season-area">          <!--lesson-wrapper -->
 
           <div id="spring-link" class="empty"></div>      <!--  春 -->
-          <div id="spring">
+          <article class="spring">
             <div class="season-title">
                 <h2>春の桜まつり</h2>
             </div>
@@ -141,58 +141,52 @@
                 2014年からはフォトコンテストも行われ、入賞作品は市役所や県内の駅構内で展示されています。<br>
               </div>
 
-              <div class="photos">      <!--lessons -->
+              <div class="photos">
 
-                <div class="photo-complex">  <!--lesson 1 -->
-                  <div class="festival-photo">    <!--lesson-icon-->
+                <figure class="photo-complex">
+                  <div class="festival-photo">
                     <img class="image-photo" src="./image/spring_2020_1.jpg" alt="さくら花写真">
                   </div>
-                  <p class="photo-caption">季節は春、自然豊かな公園内には小鳥たちもたくさん集まってきます。</p> <!--text-contents-->
-                </div>
+                  <figcaption class="photo-caption">季節は春、自然豊かな公園内には小鳥たちもたくさん集まってきます。</figcaption>
+                </figure>
 
-                <div class="photo-complex">  <!--lesson 2 -->
-                  <div class="festival-photo">    <!--lesson-icon-->
+                <figure class="photo-complex">
+                  <div class="festival-photo">
                     <img class="image-photo" src="./image/spring_2020_2.jpg" alt="卒業写真">
                   </div>
-                  <p class="photo-caption">桜の季節は卒業、入学の季節でもあります。公園の桜はいったいどれほどの人生の節目を見守ってきたのでしょうか？</p> <!--text-contents-->
-                </div>
+                  <figcaption class="photo-caption">桜の季節は卒業、入学の季節でもあります。公園の桜はいったいどれほどの人生の節目を見守ってきたのでしょうか？</figcaption>
+                </figure>
 
-                <div class="photo-complex">  <!--lesson 3 -->
-                  <div class="festival-photo">    <!--lesson-icon-->
+                <figure class="photo-complex">
+                  <div class="festival-photo">
                     <img class="image-photo" src="./image/spring_2020_3.jpg" alt="桜餅写真">
                   </div>
-                  <p class="photo-caption">お花見といえば、甘いものも忘れてはいけませんね。写真は桜餅。</p> <!--text-contents-->
-                </div>
+                  <figcaption class="photo-caption">お花見といえば、甘いものも忘れてはいけませんね。写真は桜餅。</figcaption>
+                </figure>
 
-                <div class="photo-complex">  <!--lesson 4 -->
-                  <div class="festival-photo">    <!--lesson-icon-->
+                <figure class="photo-complex">
+                  <div class="festival-photo">
                     <img class="image-photo" src="./image/spring_2020_4.jpg" alt="夜桜写真">
                   </div>
-                  <p class="photo-caption">華麗なライトアップもこの季節の風物詩です。夜桜を幻想的に照らす色合いは毎年アレンジされています。</p> <!--text-contents-->
-                </div>
+                  <figcaption class="photo-caption">華麗なライトアップもこの季節の風物詩です。夜桜を幻想的に照らす色合いは毎年アレンジされています。</figcaption>
+                </figure>
 
               </div>
-              <span></span>     <!-- 申込アコーディオン差し替え用 -->
-
-
 
               <div class="entry_wrapper">
                 <div class="content">
                   <div class="festival_entry">
-                    <div class="entry_title">
-                      <p>「春祭り」に屋台等の出店を希望される方</p>
+                    <dl class="entry_title">
+                      <dt>「春祭り」に屋台等の出店を希望される方</dt>
                       <span>+</span>
                       <div class="summary">
-                        <p>令和3年度の「春祭り」出店申し込み要綱は令和2年８月に公示されます</p>
-                        <p>令和3年度の「春祭り」出店申し込み要綱は令和2年８月に公示されます</p>
-                        <p>令和3年度の「春祭り」出店申し込み要綱は令和2年８月に公示されます</p>
-                        <p>令和3年度の「春祭り」出店申し込み要綱は令和2年８月に公示されます</p>
-                        <p>令和3年度の「春祭り」出店申し込み要綱は令和2年８月に公示されます</p>
-                        <p>令和3年度の「春祭り」出店申し込み要綱は令和2年８月に公示されます</p>
-                        <p>令和3年度の「春祭り」出店申し込み要綱は令和2年８月に公示されます</p>
+                        <dd>令和3年度の「春祭り」出店申し込み要綱は令和2年８月に公示されます</dd>
+                        <dd>令和3年度の「春祭り」出店申し込み要綱は令和2年８月に公示されます</dd>
+                        <dd>令和3年度の「春祭り」出店申し込み要綱は令和2年８月に公示されます</dd>
+                        <dd>令和3年度の「春祭り」出店申し込み要綱は令和2年８月に公示されます</dd>
+                        <dd>令和3年度の「春祭り」出店申し込み要綱は令和2年８月に公示されます</dd>
                       </div>
-
-                    </div>
+                    </dl>
 
                   </div>
                 </div>
@@ -200,174 +194,171 @@
               </div>
 
             </div>        <!-- /contents -->
-          </div>  <!--spring -->
+          </article>  <!--春 -->
 
 
           <div id="summer-link" class="empty"></div>       <!--  夏 -->
-          <div id="summer">
+          <article class="summer">
             <div class="season-title">
                 <h2>夏祭り</h2>
             </div>
             <div class="contents">            <!--container -->
 
-
               <div class="season-text">
-                <p>鶴舞公園では毎年、夏祭りを開催しております。</p>
-                <p>公園のモニュメントである噴水塔から桜の広場を中心に屋台が並び、</p>
-                <p>真夏の星空の下、鶴舞公園の夕涼みの時間はとても賑やかです。</p>
-                <p>年によって、地元出身のミュージシャンをゲストに迎えたり、少し早めの盆踊りが催される年もあります。</p>
+                <p>鶴舞公園では毎年、夏祭りを開催しております。<br>
+                公園のモニュメントである噴水塔から桜の広場を中心に屋台が並び、<br>
+                真夏の星空の下、鶴舞公園の夕涼みの時間はとても賑やかです。<br>
+                年によって、地元出身のミュージシャンをゲストに迎えたり、少し早めの盆踊りが催される年もあります。</p>
               </div>
 
-              <div class="photos">      <!--lessons -->
+              <div class="photos">
 
-                <div class="photo-complex">  <!--lesson 1 -->
-                  <div class="festival-photo">    <!--lesson-icon-->
+                <figure class="photo-complex">
+                  <div class="festival-photo">
                     <img class="image-photo" src="./image/summer_2020_1.jpg" alt="盆踊り写真">
                   </div>
-                  <p class="photo-caption">やぐらを中心にした盆踊りの輪が広場を埋め尽くす情景は、「ザ・日本の夏」</p> <!--text-contents-->
-                </div>
+                  <figcaption class="photo-caption">やぐらを中心にした盆踊りの輪が広場を埋め尽くす情景は、「ザ・日本の夏」</figcaption>
+                </figure>
 
-                <div class="photo-complex">  <!--lesson 2 -->
-                  <div class="festival-photo">    <!--lesson-icon-->
+                <figure class="photo-complex">
+                  <div class="festival-photo">
                     <img class="image-photo" src="./image/summer_2020_2.jpg" alt="ドリンク写真">
                   </div>
-                  <p class="photo-caption">夕涼みのお供には冷たいドリンクが欠かせませんね♪熱中症にはくれぐれもご注意を‼</p> <!--text-contents-->
-                </div>
+                  <figcaption class="photo-caption">夕涼みのお供には冷たいドリンクが欠かせませんね♪熱中症にはくれぐれもご注意を‼</figcaption>
+                </figure>
 
-                <div class="photo-complex">  <!--lesson 3 -->
-                  <div class="festival-photo">    <!--lesson-icon-->
+                <figure class="photo-complex">
+                  <div class="festival-photo">
                     <img class="image-photo" src="./image/summer_2020_3.jpg" alt="とうもろこし写真">
                   </div>
-                  <p class="photo-caption">香ばしく焼けたトウモロコシはいつも人気のメニューです</p> <!--text-contents-->
-                </div>
+                  <figcaption class="photo-caption">香ばしく焼けたトウモロコシはいつも人気のメニューです</figcaption>
+                </figure>
 
-                <div class="photo-complex">  <!--lesson 4 -->
-                  <div class="festival-photo">    <!--lesson-icon-->
+                <figure class="photo-complex">
+                  <div class="festival-photo">
                     <img class="image-photo" src="./image/summer_2020_4.jpg" alt="  お面写真">
                   </div>
-                  <p class="photo-caption">夏祭りといえば、お面やさんも定番ですね。今の時代の人気者が昔ながらの風情で並んでます。</p> <!--text-contents-->
-                </div>
+                  <figcaption class="photo-caption">夏祭りといえば、お面やさんも定番ですね。今の時代の人気者が昔ながらの風情で並んでます。</figcaption>>
+                </figure>
 
               </div>
               <span></span>     <!-- 申込アコーディオン差し替え用 -->
 
             </div>        <!-- /contents -->
-          </div>  <!--summer -->
+          </article>  <!--夏 -->
 
           <div id="autumn-link" class="empty"></div>       <!--  秋 -->
-          <div id="autumn">
+          <article class="autumn">
             <div class="season-title">
                 <h2>秋の演奏会</h2>
             </div>
             <div class="contents">            <!--container -->
 
-
               <div class="season-text">
-                <p>秋の季節には演奏会を実施しております。</p>
-                <p>爽やかな紅葉と秋風、木漏れ日の公園での演奏会は2005年度からの定期行事となっています。</p>
-                <p>午前中は演歌や詩吟、お昼過ぎから飛び入りカラオケ大会、夕方からはオーケストラやジャズ、暗くなってからはロックバンド等々。</p>
-                <p>地元の楽団、学生サークル、セミプロ活動中の方まで多くの方に出演していただいております。</p>
+                秋の季節には演奏会を実施しております。<br>
+                爽やかな紅葉と秋風、木漏れ日の公園での演奏会は2005年度からの定期行事となっています。<br>
+                午前中は演歌や詩吟、お昼過ぎから飛び入りカラオケ大会、夕方からはオーケストラやジャズ、暗くなってからはロックバンド等々。<br>
+                地元の楽団、学生サークル、セミプロ活動中の方まで多くの方に出演していただいております。</p>
               </div>
 
-              <div class="photos">      <!--lessons -->
+              <div class="photos">
 
-                <div class="photo-complex">  <!--lesson 1 -->
-                  <div class="festival-photo">    <!--lesson-icon-->
+                <figure class="photo-complex">
+                  <div class="festival-photo">
                     <img class="image-photo" src="./image/autumn_2020_1.jpg" alt="guitar_man写真">
                   </div>
-                  <p class="photo-caption">ギター一本抱えて、男の熱演！磨き上げたテクニックがさえわたります。</p> <!--text-contents-->
-                </div>
+                  <figcaption class="photo-caption">ギター一本抱えて、男の熱演！磨き上げたテクニックがさえわたります。</figcaption>
+                </figure>
 
-                <div class="photo-complex">  <!--lesson 2 -->
-                  <div class="festival-photo">    <!--lesson-icon-->
+                <figure class="photo-complex">
+                  <div class="festival-photo">
                     <img class="image-photo" src="./image/autumn_2020_2.jpg" alt="クラシック写真">
                   </div>
-                  <p class="photo-caption">爽やかな季節にクラシックの澄んだ音色が広がっていきます。</p> <!--text-contents-->
-                </div>
+                  <figcaption class="photo-caption">爽やかな季節にクラシックの澄んだ音色が広がっていきます。</figcaption>
+                </figure>
 
-                <div class="photo-complex">  <!--lesson 3 -->
-                  <div class="festival-photo">    <!--lesson-icon-->
+                <figure class="photo-complex">
+                  <div class="festival-photo">
                     <img class="image-photo" src="./image/autumn_2020_3.jpg" alt="バンド写真">
                   </div>
-                  <p class="photo-caption">2018年のゲストで来てくれた、プロのアーティストの面々。まじかで観れたファンの方々も幸せそうでした♪</p> <!--text-contents-->
-                </div>
+                  <figcaption class="photo-caption">2018年のゲストで来てくれた、プロのアーティストの面々。まじかで観れたファンの方々も幸せそうでした♪</figcaption>
+                </figure>
 
-                <div class="photo-complex">  <!--lesson 4 -->
-                  <div class="festival-photo">    <!--lesson-icon-->
+                <figure class="photo-complex">
+                  <div class="festival-photo">
                     <img class="image-photo" src="./image/autumn_2020_4.jpg" alt="イチョウ写真">
                   </div>
-                  <p class="photo-caption">紅葉の季節。園内の木々がいろとりどりに染まって秋の空に映えますね。</p> <!--text-contents-->
-                </div>
+                  <figcaption class="photo-caption">紅葉の季節。園内の木々がいろとりどりに染まって秋の空に映えますね。</figcaption>
+                </figure>
 
               </div>
               <span></span>     <!-- 申込アコーディオン差し替え用 -->
 
             </div>        <!-- /contents -->
-          </div>  <!--spring -->
+          </article>  <!--秋 -->
 
           <div id="winter-link" class="empty"></div>       <!--  冬 -->
-          <div id="winter">
+          <div class="winter">
             <div class="season-title">
                 <h2>あったか屋台祭り</h2>
             </div>
             <div class="contents">            <!--container -->
 
-
               <div class="season-text">
-                <p>肌寒い季節には、地元の人情味あふれる屋台が集います。</p>
-                <p>定番のおでん・鍋物に加え、エスニックな料理や各地のB級グルメも人気です。</p>
-                <p>防風、防寒の休憩所も複数用意し、寒い季節に身も心も温まるイベントとなっております。</p>
-                <p>2016年より地元アーティストによるちょっとしたイルミネーションも設置され、ご好評をいただいております。</p>
+                <p>肌寒い季節には、地元の人情味あふれる屋台が集います。<br>
+                定番のおでん・鍋物に加え、エスニックな料理や各地のB級グルメも人気です。<br>
+                防風、防寒の休憩所も複数用意し、寒い季節に身も心も温まるイベントとなっております。<br>
+                2016年より地元アーティストによるちょっとしたイルミネーションも設置され、ご好評をいただいております。<br>
               </div>
 
-              <div class="photos">      <!--lessons -->
+              <div class="photos">
 
-                <div class="photo-complex">  <!--lesson 1 -->
-                  <div class="festival-photo">    <!--lesson-icon-->
+                <figure class="photo-complex">
+                  <div class="festival-photo">
                     <img class="image-photo" src="./image/winter_2020_1.jpg" alt="鍋物写真">
                   </div>
-                  <p class="photo-caption">寒い季節には、鍋。こごえた体を温めて幸せな気持ちにしてくれます。</p> <!--text-contents-->
-                </div>
+                  <figcaption class="photo-caption">寒い季節には、鍋。こごえた体を温めて幸せな気持ちにしてくれます。</figcaption>
+                </figure>
 
-                <div class="photo-complex">  <!--lesson 2 -->
-                  <div class="festival-photo">    <!--lesson-icon-->
+                <figure class="photo-complex">
+                  <div class="festival-photo">
                     <img class="image-photo" src="./image/winter_2020_2.jpg" alt="イルミネーション写真">
                   </div>
-                  <p class="photo-caption">冬場の澄んだ空気にイルミネーションが輝いています。この時期は年間でもっともロマンチックな公園になる季節でもあります。</p> <!--text-contents-->
-                </div>
+                  <figcaption class="photo-caption">冬場の澄んだ空気にイルミネーションが輝いています。この時期は年間でもっともロマンチックな公園になる季節でもあります。</figcaption>
+                </figure>
 
-                <div class="photo-complex">  <!--lesson 3 -->
-                  <div class="festival-photo">    <!--lesson-icon-->
+                <figure class="photo-complex">
+                  <div class="festival-photo">
                     <img class="image-photo" src="./image/winter_2020_3.jpg" alt="休憩写真">
                   </div>
-                  <p class="photo-caption">屋台祭り開催中は園内の数か所に風よけと暖房機器を設置した休憩所を準備しております。</p> <!--text-contents-->
-                </div>
+                  <figcaption class="photo-caption">屋台祭り開催中は園内の数か所に風よけと暖房機器を設置した休憩所を準備しております。</figcaption>
+                </figure>
 
-                <div class="photo-complex">  <!--lesson 4 -->
-                  <div class="festival-photo">    <!--lesson-icon-->
+                <figure class="photo-complex">
+                  <div class="festival-photo">
                     <img class="image-photo" src="./image/winter_2020_4.jpg" alt="ラーメン写真">
                   </div>
-                  <p class="photo-caption">屋台祭りの人気メニューの一つ、肉野菜ラーメン。毎年、売り切れ完売となる幻の一品です。</p> <!--text-contents-->
-                </div>
+                  <figcaption class="photo-caption">屋台祭りの人気メニューの一つ、肉野菜ラーメン。毎年、売り切れ完売となる幻の一品です。</figcaption>
+                </figure>
 
               </div>
               <span></span>     <!-- 申込アコーディオン差し替え用 -->
 
             </div>        <!-- /contents -->
-          </div>  <!--spring -->
+          </div>  <!--冬 -->
 
 
 
         </div>          <!--  /season-area -->
-      </div>     <!--  /main -->
+      </main>     <!--  /main -->
 
 
       <footer>
         <div class="contents">
-          <div class="footer-txt">
-            <p>鶴舞公園 (管理事務所)</p>
+          <address class="footer-txt">
+            <p>鶴舞公園 <small>(管理事務所)</small></p>
             <p>〒466-0064 名古屋市昭和区鶴舞一丁目1番168号</p>
-          </div>
+          </adress>
         </div>      <!-- /contents -->
       </footer>
 
