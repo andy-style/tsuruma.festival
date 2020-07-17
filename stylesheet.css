@@ -441,6 +441,7 @@ h3 {
 /* アコーディオン */
 
 .entry_wrapper {
+  cursor: pointer;
 }
 
 .entry_title {
@@ -449,6 +450,10 @@ h3 {
   margin: 0 auto;
   background-color: rgba(4,139,168,.8);
   border-radius: 15px;
+}
+
+.entry_title dd {
+  text-align: center;
 }
 
 .entry_wrapper dt {
@@ -466,13 +471,18 @@ h3 {
   font-size: 23px;
 }
 
+.spring_form {
+  margin: 0 auto;
+  color:white;
+}
+
 .summary {
   display: none;
   background-color: rgba(255,255,255,.5);
   border-radius: 0 0 15px 15px;
   padding: 10px;
   max-height: 300px;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 .summary dd {
