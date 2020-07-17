@@ -440,6 +440,9 @@ h3 {
 
 /* アコーディオン */
 
+.entry_wrapper {
+}
+
 .entry_title {
   position: relative;
   width: 70%;
@@ -468,6 +471,8 @@ h3 {
   background-color: rgba(255,255,255,.5);
   border-radius: 0 0 15px 15px;
   padding: 10px;
+  max-height: 300px;
+  overflow-y: scroll;
 }
 
 .summary dd {
