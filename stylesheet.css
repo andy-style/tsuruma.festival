@@ -485,6 +485,7 @@ footer {
   height: 65px;
   color: white;
   background-color: rgba(4,139,168,.9);
+  margin-top: 40px;
 }
 
 footer p {
