@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1>「さくら祭り」　出店希望申請フォーム</h1>
+
+  <div class="entry_wrapper">
+      <article class="festival_entry">
+        <form>
+          <dl class="entry_title">
+            <h2>「さくら祭り」　出店希望申請用</h2>
+            <p class="alert">*印の項目は入力必須項目です</p>
+            <div class="summary">
+              <dt>代表者名<span class="must">*</span></dt>
+              <dd><input type="text" name="name" id="name" required></dd>
+              <dt>会社名</dt>
+              <dd><input type="text" name="company" id="company"></dd>
+              <dt>屋号</dt>
+              <dd><input type="text" name="shopName" id="shopName"></dd>
+              <dt>ジャンル<span class="must">*</span></dt>
+              <dd><select name="genre" id="genre">
+                <option value="eat">飲食（アルコールなし）</option>
+                <option value="alcohol">飲食（アルコールなし）</option>
+                <option value="alcohol">飲食（アルコールなし）</option>
+                <option value="sell">物販</option>
+                <option value="another">その他</option>
+              </select></dd>
+              <dt>販売品目<span class="must">*</span></dt>
+              <dd><input type="text" name="deal" id="deal"></dd>
+              <dt>「桜祭り」出店歴<span class="must">*</span></dt>
+              <dd>
+                <input type="radio" name="number" value="1">初めて
+                <input type="radio" name="number" value="2">２回目
+                <input type="radio" name="number" value="3">３回目
+                <input type="radio" name="number" value="4">４回以上
+              </dd>
+              <dt>連絡先（TEL）<span class="must">*</span></dt>
+              <dd></dd>
+              <dt>連絡先（携帯）<span class="must">*</span></dt>
+              <dd></dd>
+              <dt>e-mail<span class="must">*</span></dt>
+              <dd><input type="email" name="email" id="email" required></dd>
+              <dt>住所<span class="must">*</span></dt>
+              <dd><textarea name="address" id="address"></textarea></dd>
+              <dt>備考</dt>
+              <dd><textarea name="remark" id="remark"></textarea></dd>
+
+            </div>
+          </dl>
+          <p class="">
+            <input type="submit" id="submit_button" value="入力内容を送信">
+          </p>
+        </form>
+      </article>
+  </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
