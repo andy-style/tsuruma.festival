@@ -219,7 +219,7 @@ body {
     font-size: 0;
   }
 
-  .autumn dt:before {
+  .autumn dt:before {          /* 秋の演奏会のみテキスト入れ替え */
     font-size: 17px;
     content:"「演奏会」に出演、出店希望の方";
   }
